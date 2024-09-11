@@ -1,0 +1,56 @@
+/* Estilo para el contenedor del formulario */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    background-color: #f8f9fa; /* Color de fondo neutro */
+  }
+  
+  /* Estilo del formulario */
+  .form-container form {
+    background-color: #ffffff; /* Fondo blanco para el formulario */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    padding: 20px;
+    max-width: 600px; /* Ancho máximo del formulario */
+    width: 100%;
+  }
+  
+  /* Estilo para los campos de formulario */
+  .form-control,
+  .form-select {
+    border-radius: 4px; /* Bordes redondeados para los campos */
+    border: 1px solid #ced4da; /* Borde gris claro */
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  /* Estilo para las etiquetas de los campos */
+  .form-label {
+    font-size: 14px;
+    color: #495057; /* Color del texto de las etiquetas */
+    margin-bottom: 8px;
+  }
+  
+  /* Estilo para el botón de envío */
+  .btn-primary {
+    background-color: #007bff; /* Color de fondo del botón */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    color: #ffffff; /* Color del texto del botón */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Color de fondo del botón al pasar el ratón */
+  }
+  
+  /* Estilo para el checkbox */
+  .form-check-label {
+    font-size: 14px;
+    color: #495057; /* Color del texto del checkbox */
+  }
